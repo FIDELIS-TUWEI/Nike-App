@@ -9,6 +9,7 @@ import Counter from './components/Counter';
 import ParentComp from './components/ParentComp';
 import ClassProps from './components/ClassProps';
 import FunctionalProps from './components/FunctionalProps';
+import NewComp from './State/NewComp';
 
 
 
@@ -60,6 +61,8 @@ export default class App extends React.Component {
         <ParentComp />
         <ClassProps name="Learner 1"/>
         <FunctionalProps name="New Learner!" />
+
+        <NewComp />
       </div>
     );
   }
