@@ -6,7 +6,7 @@ import TaskList from './components/TaskList'
 import AddTask from './components/AddTask';
 import Click from './components/Click';
 import Counter from './components/Counter';
-
+import ParentComp from './components/ParentComp';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -53,6 +53,7 @@ export default class App extends React.Component {
 
         <Click />
         <Counter />
+        <ParentComp />
       </div>
     );
   }
