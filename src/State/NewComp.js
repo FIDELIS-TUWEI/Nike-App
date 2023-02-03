@@ -42,11 +42,11 @@ class NewComp extends Component {
         <h3 style={this.styles}>{this.state.message}</h3>
         <button onClick={this.ButtonChange}>{this.state.sub}</button>
         <p>
-            <img src={this.state.imageURL} style={this.bellStyles} onClick={this.imageChange}/>
+            <img src={this.state.imageURL} style={this.bellStyles} onClick={this.imageChange} alt=""/>
         </p>
       </div>
     )
   }
 }
 
-export default NewComp
+export default NewComp;
