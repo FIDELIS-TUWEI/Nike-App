@@ -18,7 +18,7 @@ export default function TaskList(props) {
                 </button>
             </div>
 
-            {props.tasks.map((task, index) => {
+            {/* {props.tasks.map((task, index) => {
                 return (
                     <Task 
                         key={task}
@@ -27,7 +27,7 @@ export default function TaskList(props) {
                         handleDeleteTask={props.handleDeleteTask}
                     />
                 )
-            })};
+            })}; */}
 
             {props.tasks.length !== 0 && <hr />}
         </div>

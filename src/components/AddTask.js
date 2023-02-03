@@ -1,6 +1,6 @@
-import { render } from '@testing-library/react';
 import React from 'react'
 
+import '../styles/AddTask.css'
 
 export default class AddItem extends React.Component {
     constructor(props) {
