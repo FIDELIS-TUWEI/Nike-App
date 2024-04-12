@@ -17,9 +17,9 @@ const ServiceCard = ({ imgURL, label, subtext }) => {
 };
 
 ServiceCard.propTypes = {
-    imgURL: PropTypes,
-    label: PropTypes,
-    subtext: PropTypes
+    imgURL: PropTypes.string,
+    label: PropTypes.string,
+    subtext: PropTypes.string
 }
 
 export default ServiceCard;
